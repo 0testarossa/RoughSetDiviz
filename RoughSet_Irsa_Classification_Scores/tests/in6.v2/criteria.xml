@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmcda:XMCDA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:xmcda="http://www.decision-deck.org/2019/XMCDA-2.2.4"
+             xsi:schemaLocation="http://www.decision-deck.org/2019/XMCDA-2.2.4 http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.2.4.xsd">
+    <criteria>
+        <criterion id="g1" name="Temperature">
+            <active>true</active>
+            <scale>
+                <nominal>
+                    <label>very high</label>
+                    <label>high</label>
+                    <label>normal</label>
+                </nominal>
+            </scale>
+        </criterion>
+        <criterion id="g2" name="Headache">
+            <active>true</active>
+            <scale>
+                <nominal>
+                    <label>yes</label>
+                    <label>no</label>
+                </nominal>
+            </scale>
+        </criterion>
+        <criterion id="g3" name="Weakness">
+            <active>true</active>
+            <scale>
+                <nominal>
+                    <label>yes</label>
+                    <label>no</label>
+                </nominal>
+            </scale>
+        </criterion>
+        <criterion id="g4" name="Nausea">
+            <active>true</active>
+            <scale>
+                <nominal>
+                    <label>yes</label>
+                    <label>no</label>
+                </nominal>
+            </scale>
+        </criterion>
+    </criteria>
+</xmcda:XMCDA>

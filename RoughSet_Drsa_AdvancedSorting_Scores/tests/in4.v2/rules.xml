@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmcda:XMCDA xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xmlns:xmcda="http://www.decision-deck.org/2019/XMCDA-2.2.4">
+    <rules id="rules1" name="rules1 name" mcdaConcept="rules1 mcdaConcept">
+		<rule mcdaConcept="certain">
+			<conditions>
+				<condition mcdaConcept="value">
+					<criterionID>c01</criterionID>
+					<value>
+						<real>15000.0</real>
+					</value>
+					<operator>geq</operator>
+				</condition>
+				<condition mcdaConcept="value">
+					<criterionID>c03</criterionID>
+					<value>
+						<real>150.0</real>
+					</value>
+					<operator>geq</operator>
+				</condition>
+				<condition mcdaConcept="value">
+					<criterionID>c05</criterionID>
+					<value>
+						<label>bad</label>
+					</value>
+					<operator>geq</operator>
+				</condition>
+			</conditions>
+			<decisions>
+				<decision>
+					<categoriesInterval>
+						<lowerBound>
+							<categoryID>C1</categoryID>
+						</lowerBound>
+					</categoriesInterval>
+				</decision>
+			</decisions>
+		</rule>
+		<rule mcdaConcept="certain">
+			<conditions>
+				<condition mcdaConcept="value">
+					<criterionID>c05</criterionID>
+					<value>
+						<label>medium</label>
+					</value>
+					<operator>geq</operator>
+				</condition>
+				<condition mcdaConcept="value">
+					<criterionID>c03</criterionID>
+					<value>
+						<real>8.0</real>
+					</value>
+					<operator>geq</operator>
+				</condition>
+			</conditions>
+			<decisions>
+				<decision>
+					<categoriesInterval>
+						<lowerBound>
+							<categoryID>C3</categoryID>
+						</lowerBound>
+					</categoriesInterval>
+				</decision>
+			</decisions>
+		</rule>
+		<rule mcdaConcept="certain">
+			<conditions>
+				<condition mcdaConcept="value">
+					<criterionID>c03</criterionID>
+					<value>
+						<real>150.0</real>
+					</value>
+					<operator>geq</operator>
+				</condition>
+				<condition mcdaConcept="value">
+					<criterionID>c01</criterionID>
+					<value>
+						<real>25700.0</real>
+					</value>
+					<operator>geq</operator>
+				</condition>
+			</conditions>
+			<decisions>
+				<decision>
+					<categoriesInterval>
+						<lowerBound>
+							<categoryID>C2</categoryID>
+						</lowerBound>
+					</categoriesInterval>
+				</decision>
+			</decisions>
+		</rule>
+		<rule mcdaConcept="certain">
+			<conditions>
+				<condition mcdaConcept="value">
+					<criterionID>c01</criterionID>
+					<value>
+						<real>24500.0</real>
+					</value>
+					<operator>geq</operator>
+				</condition>
+				<condition mcdaConcept="value">
+					<criterionID>c03</criterionID>
+					<value>
+						<real>8.0</real>
+					</value>
+					<operator>leq</operator>
+				</condition>
+			</conditions>
+			<decisions>
+				<decision>
+					<categoriesInterval>
+						<upperBound>
+							<categoryID>C3</categoryID>
+						</upperBound>
+					</categoriesInterval>
+				</decision>
+			</decisions>
+		</rule>
+		<rule mcdaConcept="certain">
+			<conditions>
+				<condition mcdaConcept="value">
+					<criterionID>c05</criterionID>
+					<value>
+						<label>medium</label>
+					</value>
+					<operator>geq</operator>
+				</condition>
+			</conditions>
+			<decisions>
+				<decision>
+					<categoriesInterval>
+						<upperBound>
+							<categoryID>C2</categoryID>
+						</upperBound>
+					</categoriesInterval>
+				</decision>
+			</decisions>
+		</rule>
+		<rule mcdaConcept="certain">
+			<conditions>
+				<condition mcdaConcept="value">
+					<criterionID>c01</criterionID>
+					<value>
+						<real>27000.0</real>
+					</value>
+					<operator>geq</operator>
+				</condition>
+				<condition mcdaConcept="value">
+					<criterionID>c03</criterionID>
+					<value>
+						<real>9.0</real>
+					</value>
+					<operator>leq</operator>
+				</condition>
+			</conditions>
+			<decisions>
+				<decision>
+					<categoriesInterval>
+						<upperBound>
+							<categoryID>C2</categoryID>
+						</upperBound>
+					</categoriesInterval>
+				</decision>
+			</decisions>
+		</rule>
+	</rules>
+</xmcda:XMCDA>

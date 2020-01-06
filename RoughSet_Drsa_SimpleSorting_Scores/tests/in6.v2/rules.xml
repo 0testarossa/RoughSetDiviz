@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmcda:XMCDA xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xmlns:xmcda="http://www.decision-deck.org/2019/XMCDA-2.2.4">
+    <rules>
+        <rule mcdaConcept="certain">
+            <conditions>
+                <condition mcdaConcept="value">
+                    <criterionID>g3</criterionID>
+                    <operator>leq</operator>
+                    <value>
+                        <real>2.5</real>
+                    </value>
+                </condition>
+            </conditions>
+            <decisions>
+                <decision>
+                    <categoriesInterval>
+                        <upperBound>
+                            <categoryID>C1</categoryID>
+                        </upperBound>
+                    </categoriesInterval>
+                </decision>
+            </decisions>
+        </rule>
+        <rule mcdaConcept="certain">
+            <conditions>
+                <condition mcdaConcept="value">
+                    <criterionID>g2</criterionID>
+                    <operator>leq</operator>
+                    <value>
+                        <real>1.2</real>
+                    </value>
+                </condition>
+                <condition mcdaConcept="value">
+                    <criterionID>g1</criterionID>
+                    <operator>leq</operator>
+                    <value>
+                        <real>1.0</real>
+                    </value>
+                </condition>
+            </conditions>
+            <decisions>
+                <decision>
+                    <categoriesInterval>
+                        <upperBound>
+                            <categoryID>C1</categoryID>
+                        </upperBound>
+                    </categoriesInterval>
+                </decision>
+            </decisions>
+        </rule>
+        <rule mcdaConcept="certain">
+            <conditions>
+                <condition mcdaConcept="value">
+                    <criterionID>g1</criterionID>
+                    <operator>leq</operator>
+                    <value>
+                        <real>2.0</real>
+                    </value>
+                </condition>
+            </conditions>
+            <decisions>
+                <decision>
+                    <categoriesInterval>
+                        <upperBound>
+                            <categoryID>C2</categoryID>
+                        </upperBound>
+                    </categoriesInterval>
+                </decision>
+            </decisions>
+        </rule>
+        <rule mcdaConcept="certain">
+            <conditions>
+                <condition mcdaConcept="value">
+                    <criterionID>g2</criterionID>
+                    <operator>geq</operator>
+                    <value>
+                        <real>2.8</real>
+                    </value>
+                </condition>
+                <condition mcdaConcept="value">
+                    <criterionID>g3</criterionID>
+                    <operator>geq</operator>
+                    <value>
+                        <real>6.0</real>
+                    </value>
+                </condition>
+            </conditions>
+            <decisions>
+                <decision>
+                    <categoriesInterval>
+                        <lowerBound>
+                            <categoryID>C2</categoryID>
+                        </lowerBound>
+                    </categoriesInterval>
+                </decision>
+            </decisions>
+        </rule>
+        <rule mcdaConcept="certain">
+            <conditions>
+                <condition mcdaConcept="value">
+                    <criterionID>g2</criterionID>
+                    <operator>geq</operator>
+                    <value>
+                        <real>2.8</real>
+                    </value>
+                </condition>
+                <condition mcdaConcept="value">
+                    <criterionID>g1</criterionID>
+                    <operator>geq</operator>
+                    <value>
+                        <real>1.7</real>
+                    </value>
+                </condition>
+            </conditions>
+            <decisions>
+                <decision>
+                    <categoriesInterval>
+                        <lowerBound>
+                            <categoryID>C2</categoryID>
+                        </lowerBound>
+                    </categoriesInterval>
+                </decision>
+            </decisions>
+        </rule>
+        <rule mcdaConcept="certain">
+            <conditions>
+                <condition mcdaConcept="value">
+                    <criterionID>g1</criterionID>
+                    <operator>geq</operator>
+                    <value>
+                        <real>1.2</real>
+                    </value>
+                </condition>
+                <condition mcdaConcept="value">
+                    <criterionID>g3</criterionID>
+                    <operator>geq</operator>
+                    <value>
+                        <real>7.0</real>
+                    </value>
+                </condition>
+            </conditions>
+            <decisions>
+                <decision>
+                    <categoriesInterval>
+                        <lowerBound>
+                            <categoryID>C2</categoryID>
+                        </lowerBound>
+                    </categoriesInterval>
+                </decision>
+            </decisions>
+        </rule>
+        <rule mcdaConcept="certain">
+            <conditions>
+                <condition mcdaConcept="value">
+                    <criterionID>g1</criterionID>
+                    <operator>geq</operator>
+                    <value>
+                        <real>2.7</real>
+                    </value>
+                </condition>
+            </conditions>
+            <decisions>
+                <decision>
+                    <categoriesInterval>
+                        <lowerBound>
+                            <categoryID>C3</categoryID>
+                        </lowerBound>
+                    </categoriesInterval>
+                </decision>
+            </decisions>
+        </rule>
+        <rule mcdaConcept="certain">
+            <conditions>
+                <condition mcdaConcept="value">
+                    <criterionID>g3</criterionID>
+                    <operator>geq</operator>
+                    <value>
+                        <real>13.0</real>
+                    </value>
+                </condition>
+                <condition mcdaConcept="value">
+                    <criterionID>g1</criterionID>
+                    <operator>geq</operator>
+                    <value>
+                        <real>2.3</real>
+                    </value>
+                </condition>
+            </conditions>
+            <decisions>
+                <decision>
+                    <categoriesInterval>
+                        <lowerBound>
+                            <categoryID>C3</categoryID>
+                        </lowerBound>
+                    </categoriesInterval>
+                </decision>
+            </decisions>
+        </rule>
+    </rules>
+</xmcda:XMCDA>

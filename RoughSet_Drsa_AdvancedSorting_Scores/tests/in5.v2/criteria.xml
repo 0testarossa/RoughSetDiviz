@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmcda:XMCDA xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xmlns:xmcda="http://www.decision-deck.org/2019/XMCDA-2.2.4">
+    <criteria>
+        <criterion id="c01">
+            <scale>
+                <quantitative>
+                    <preferenceDirection>max</preferenceDirection>
+                </quantitative>
+            </scale>
+        </criterion>
+        <criterion id="c02">
+            <scale>
+                <quantitative>
+                    <preferenceDirection>max</preferenceDirection>
+                </quantitative>
+            </scale>
+        </criterion>
+        <criterion id="c03">
+            <scale>
+                <quantitative>
+                    <preferenceDirection>max</preferenceDirection>
+                </quantitative>
+            </scale>
+        </criterion>
+        <criterion id="c04">
+            <scale>
+                <quantitative>
+                    <preferenceDirection>min</preferenceDirection>
+                </quantitative>
+            </scale>
+        </criterion>
+        <criterion id="c05">
+            <scale>
+                <qualitative>
+                    <preferenceDirection>max</preferenceDirection>
+                    <rankedLabel>
+                        <label>medium</label>
+                        <rank>2</rank>
+                    </rankedLabel>
+                    <rankedLabel>
+                        <label>bad</label>
+                        <rank>1</rank>
+                    </rankedLabel>
+                    <rankedLabel>
+                        <label>good</label>
+                        <rank>3</rank>
+                    </rankedLabel>
+                </qualitative>
+            </scale>
+        </criterion>
+    </criteria>
+
+</xmcda:XMCDA>

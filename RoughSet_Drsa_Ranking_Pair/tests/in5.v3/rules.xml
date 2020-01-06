@@ -1,0 +1,189 @@
+<?xml version="1.0" ?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2019/XMCDA-3.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.decision-deck.org/2019/XMCDA-3.2.0 http://www.decision-deck.org/xmcda/_downloads/XMCDA-3.2.0.xsd">
+	<rules>
+		<rule mcdaConcept="certain">
+			<conditions>
+				<conditionPair>
+					<firstElement>
+						<condition mcdaConcept="value">
+							<criterionID>g3</criterionID>
+							<operator>geq</operator>
+							<value>
+								<label>Good</label>
+							</value>
+						</condition>
+					</firstElement>
+					<secondElement>
+						<condition mcdaConcept="value">
+							<criterionID>g3</criterionID>
+							<operator>leq</operator>
+							<value>
+								<label>Medium</label>
+							</value>
+						</condition>
+					</secondElement>
+				</conditionPair>
+			</conditions>
+			<decisions>
+				<decision>
+					<categoryID>S</categoryID>
+				</decision>
+			</decisions>
+		</rule>
+		<rule mcdaConcept="certain">
+			<conditions>
+				<conditionPair>
+					<firstElement>
+						<condition mcdaConcept="value">
+							<criterionID>g3</criterionID>
+							<operator>geq</operator>
+							<value>
+								<label>Basic</label>
+							</value>
+						</condition>
+					</firstElement>
+					<secondElement>
+						<condition mcdaConcept="value">
+							<criterionID>g3</criterionID>
+							<operator>leq</operator>
+							<value>
+								<label>Basic</label>
+							</value>
+						</condition>
+					</secondElement>
+				</conditionPair>
+			</conditions>
+			<decisions>
+				<decision>
+					<categoryID>S</categoryID>
+				</decision>
+			</decisions>
+		</rule>
+		<rule mcdaConcept="certain">
+			<conditions>
+				<condition mcdaConcept="difference">
+					<criterionID>g1</criterionID>
+					<operator>leq</operator>
+					<value>
+						<real>-32.0</real>
+					</value>
+				</condition>
+			</conditions>
+			<decisions>
+				<decision>
+					<categoryID>S</categoryID>
+				</decision>
+			</decisions>
+		</rule>
+		<rule mcdaConcept="certain">
+			<conditions>
+				<condition mcdaConcept="difference">
+					<criterionID>g1</criterionID>
+					<operator>leq</operator>
+					<value>
+						<real>0.0</real>
+					</value>
+				</condition>
+				<conditionPair>
+					<firstElement>
+						<condition mcdaConcept="value">
+							<criterionID>g3</criterionID>
+							<operator>geq</operator>
+							<value>
+								<label>Good</label>
+							</value>
+						</condition>
+					</firstElement>
+					<secondElement>
+						<condition mcdaConcept="value">
+							<criterionID>g3</criterionID>
+							<operator>leq</operator>
+							<value>
+								<label>Good</label>
+							</value>
+						</condition>
+					</secondElement>
+				</conditionPair>
+			</conditions>
+			<decisions>
+				<decision>
+					<categoryID>S</categoryID>
+				</decision>
+			</decisions>
+		</rule>
+		<rule mcdaConcept="certain">
+			<conditions>
+				<conditionPair>
+					<firstElement>
+						<condition mcdaConcept="value">
+							<criterionID>g3</criterionID>
+							<operator>leq</operator>
+							<value>
+								<label>Medium</label>
+							</value>
+						</condition>
+					</firstElement>
+					<secondElement>
+						<condition mcdaConcept="value">
+							<criterionID>g3</criterionID>
+							<operator>geq</operator>
+							<value>
+								<label>Good</label>
+							</value>
+						</condition>
+					</secondElement>
+				</conditionPair>
+			</conditions>
+			<decisions>
+				<decision>
+					<categoryID>Sc</categoryID>
+				</decision>
+			</decisions>
+		</rule>
+		<rule mcdaConcept="certain">
+			<conditions>
+				<conditionPair>
+					<firstElement>
+						<condition mcdaConcept="value">
+							<criterionID>g3</criterionID>
+							<operator>leq</operator>
+							<value>
+								<label>Basic</label>
+							</value>
+						</condition>
+					</firstElement>
+					<secondElement>
+						<condition mcdaConcept="value">
+							<criterionID>g3</criterionID>
+							<operator>geq</operator>
+							<value>
+								<label>Medium</label>
+							</value>
+						</condition>
+					</secondElement>
+				</conditionPair>
+			</conditions>
+			<decisions>
+				<decision>
+					<categoryID>Sc</categoryID>
+				</decision>
+			</decisions>
+		</rule>
+		<rule mcdaConcept="certain">
+			<conditions>
+				<condition mcdaConcept="difference">
+					<criterionID>g1</criterionID>
+					<operator>geq</operator>
+					<value>
+						<real>32.0</real>
+					</value>
+				</condition>
+			</conditions>
+			<decisions>
+				<decision>
+					<categoryID>Sc</categoryID>
+				</decision>
+			</decisions>
+		</rule>
+	</rules>
+</xmcda:XMCDA>

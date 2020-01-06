@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmcda:XMCDA xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xmlns:xmcda="http://www.decision-deck.org/2019/XMCDA-2.2.4">
+    <rules>
+        <rule mcdaConcept="certain">
+            <conditions>
+                <condition mcdaConcept="value">
+                    <criterionID>g2</criterionID>
+                    <operator>eq</operator>
+                    <value>
+                        <label>yes</label>
+                    </value>
+                </condition>
+            </conditions>
+            <decisions>
+                <decision>
+                    <categoryID>C1</categoryID>
+                </decision>
+            </decisions>
+            <values>
+                <value id="specificity">
+                    <integer>1</integer>
+                </value>
+                <value id="strength">
+                    <integer>3</integer>
+                </value>
+                <value id="coverageCardinality">
+                    <integer>3</integer>
+                </value>
+            </values>
+        </rule>
+        <rule mcdaConcept="certain">
+            <conditions>
+                <condition mcdaConcept="value">
+                    <criterionID>g1</criterionID>
+                    <operator>eq</operator>
+                    <value>
+                        <label>high</label>
+                    </value>
+                </condition>
+                <condition mcdaConcept="value">
+                    <criterionID>g3</criterionID>
+                    <operator>eq</operator>
+                    <value>
+                        <label>yes</label>
+                    </value>
+                </condition>
+            </conditions>
+            <decisions>
+                <decision>
+                    <categoryID>C1</categoryID>
+                </decision>
+            </decisions>
+            <values>
+                <value id="specificity">
+                    <integer>2</integer>
+                </value>
+                <value id="strength">
+                    <integer>1</integer>
+                </value>
+                <value id="coverageCardinality">
+                    <integer>1</integer>
+                </value>
+            </values>
+        </rule>
+        <rule mcdaConcept="certain">
+            <conditions>
+                <condition mcdaConcept="value">
+                    <criterionID>g4</criterionID>
+                    <operator>eq</operator>
+                    <value>
+                        <label>no</label>
+                    </value>
+                </condition>
+                <condition mcdaConcept="value">
+                    <criterionID>g1</criterionID>
+                    <operator>eq</operator>
+                    <value>
+                        <label>normal</label>
+                    </value>
+                </condition>
+            </conditions>
+            <decisions>
+                <decision>
+                    <categoryID>C2</categoryID>
+                </decision>
+            </decisions>
+            <values>
+                <value id="specificity">
+                    <integer>2</integer>
+                </value>
+                <value id="strength">
+                    <integer>2</integer>
+                </value>
+                <value id="coverageCardinality">
+                    <integer>2</integer>
+                </value>
+            </values>
+        </rule>
+        <rule mcdaConcept="certain">
+            <conditions>
+                <condition mcdaConcept="value">
+                    <criterionID>g3</criterionID>
+                    <operator>eq</operator>
+                    <value>
+                        <label>no</label>
+                    </value>
+                </condition>
+                <condition mcdaConcept="value">
+                    <criterionID>g2</criterionID>
+                    <operator>eq</operator>
+                    <value>
+                        <label>no</label>
+                    </value>
+                </condition>
+            </conditions>
+            <decisions>
+                <decision>
+                    <categoryID>C2</categoryID>
+                </decision>
+            </decisions>
+            <values>
+                <value id="specificity">
+                    <integer>2</integer>
+                </value>
+                <value id="strength">
+                    <integer>2</integer>
+                </value>
+                <value id="coverageCardinality">
+                    <integer>2</integer>
+                </value>
+            </values>
+        </rule>
+    </rules>
+</xmcda:XMCDA>

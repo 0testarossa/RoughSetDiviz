@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmcda:XMCDA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:xmcda="http://www.decision-deck.org/2019/XMCDA-2.2.4"
+             xsi:schemaLocation="http://www.decision-deck.org/2019/XMCDA-2.2.4 http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.2.4.xsd">
+    <criteria>
+        <criterion id="g1">
+            <active>true</active>
+            <scale>
+                <quantitative>
+                    <preferenceDirection>max</preferenceDirection>
+                </quantitative>
+            </scale>
+        </criterion>
+        <criterion id="g2">
+            <active>true</active>
+            <scale>
+                <quantitative>
+                    <preferenceDirection>max</preferenceDirection>
+                </quantitative>
+            </scale>
+        </criterion>
+        <criterion id="g3">
+            <active>true</active>
+            <scale>
+                <quantitative>
+                    <preferenceDirection>max</preferenceDirection>
+                </quantitative>
+            </scale>
+        </criterion>
+    </criteria>
+</xmcda:XMCDA>

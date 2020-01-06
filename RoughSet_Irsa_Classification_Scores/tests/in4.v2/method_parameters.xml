@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmcda:XMCDA xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xmlns:xmcda="http://www.decision-deck.org/2019/XMCDA-2.2.4">
+    <methodParameters>
+        <parameter id="specificity">
+                <value>
+                    <integer>1</integer>
+                </value>
+        </parameter>
+        <parameter id="strength">
+                <value>
+                    <label>roughMeasure</label>
+                </value>
+        </parameter>
+		<parameter id="matching">
+                <value>
+                    <integer>1</integer>
+                </value>
+        </parameter>
+    </methodParameters>
+</xmcda:XMCDA>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="xmcda-0.63">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/RoughSet_Irsa_Classification_Scores/libs/xmcda-0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

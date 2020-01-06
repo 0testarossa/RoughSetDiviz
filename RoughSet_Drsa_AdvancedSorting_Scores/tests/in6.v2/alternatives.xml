@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmcda:XMCDA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:xmcda="http://www.decision-deck.org/2019/XMCDA-2.2.4"
+             xsi:schemaLocation="http://www.decision-deck.org/2019/XMCDA-2.2.4 http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.2.4.xsd">
+    <alternatives>
+        <alternative id="a18">
+            <type>real</type>
+            <active>true</active>
+        </alternative>
+        <alternative id="a19">
+            <type>real</type>
+            <active>true</active>
+        </alternative>
+    </alternatives>
+</xmcda:XMCDA>
